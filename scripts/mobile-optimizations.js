@@ -15,43 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.classList.add('is-tablet');
     }
     
-    // Gestion améliorée du menu mobile
-    const menuToggle = document.querySelector('.menu-toggle');
-    const header = document.querySelector('.header');
-    
-    if (menuToggle) {
-        menuToggle.addEventListener('click', function() {
-            header.classList.toggle('header--menu-open');
-            document.body.classList.toggle('menu-open');
-            
-            // Accessibilité
-            const isExpanded = header.classList.contains('header--menu-open');
-            menuToggle.setAttribute('aria-expanded', isExpanded);
-        });
-        
-        // Fermer le menu au clic sur un lien
-        const navLinks = document.querySelectorAll('.header__nav-item a');
-        navLinks.forEach(link => {
-            link.addEventListener('click', function() {
-                header.classList.remove('header--menu-open');
-                document.body.classList.remove('menu-open');
-                menuToggle.setAttribute('aria-expanded', 'false');
-            });
-        });
-        
-        // Fermer le menu au clic en dehors
-        document.addEventListener('click', function(event) {
-            if (isMobile && 
-                !event.target.closest('.header__nav') && 
-                !event.target.closest('.menu-toggle') && 
-                header.classList.contains('header--menu-open')) {
-                header.classList.remove('header--menu-open');
-                document.body.classList.remove('menu-open');
-                menuToggle.setAttribute('aria-expanded', 'false');
-            }
-        });
-    }
-    
     // Optimisation des images pour mobile
     if (isMobile || isTablet) {
         // Chargement différé des images non visibles

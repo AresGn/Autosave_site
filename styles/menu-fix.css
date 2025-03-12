@@ -1,0 +1,117 @@
+/* Corrections pour le menu mobile */
+
+@media (max-width: 767px) {
+    /* Réinitialiser certains styles qui pourraient causer des conflits */
+    .header__nav {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: auto !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        max-height: 100vh !important;
+        background-color: white !important;
+        padding: 70px 20px 20px !important;
+        transition: transform 0.3s ease !important;
+        z-index: 5 !important;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+        transform: translateY(-100%) !important;
+        overflow-y: auto !important;
+    }
+    
+    .header--menu-open .header__nav {
+        transform: translateY(0) !important;
+        right: auto !important;
+        animation: slideDown 0.3s ease forwards !important;
+    }
+    
+    @keyframes slideDown {
+        0% {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    
+    .header__nav-list {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0 !important;
+        width: 100% !important;
+    }
+    
+    .header__nav-item {
+        width: 100% !important;
+        text-align: center !important;
+        opacity: 0;
+        transform: translateY(-10px);
+        animation: fadeIn 0.5s ease forwards;
+        animation-delay: calc(0.1s * var(--item-index, 0));
+    }
+    
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .header__nav-item:nth-child(1) { --item-index: 1; }
+    .header__nav-item:nth-child(2) { --item-index: 2; }
+    .header__nav-item:nth-child(3) { --item-index: 3; }
+    .header__nav-item:nth-child(4) { --item-index: 4; }
+    .header__nav-item:nth-child(5) { --item-index: 5; }
+    
+    .header__nav-item a {
+        display: block !important;
+        padding: 15px 0 !important;
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+        color: var(--color-text) !important;
+        width: 100% !important;
+        text-align: center !important;
+        transition: all 0.2s ease !important;
+    }
+    
+    .header__nav-item a:hover {
+        background-color: rgba(0, 0, 0, 0.03) !important;
+        color: var(--color-primary) !important;
+        transform: translateX(5px) !important;
+    }
+    
+    /* Améliorer l'apparence du menu hamburger */
+    .menu-toggle {
+        z-index: 10 !important;
+    }
+    
+    .menu-toggle span {
+        height: 3px !important;
+        border-radius: 3px !important;
+        transition: all 0.3s ease !important;
+    }
+    
+    /* Animation du menu hamburger */
+    .header--menu-open .menu-toggle span:first-child {
+        transform: translateY(9px) rotate(45deg) !important;
+        background-color: var(--color-primary) !important;
+    }
+    
+    .header--menu-open .menu-toggle span:nth-child(2) {
+        opacity: 0 !important;
+    }
+    
+    .header--menu-open .menu-toggle span:last-child {
+        transform: translateY(-9px) rotate(-45deg) !important;
+        background-color: var(--color-primary) !important;
+    }
+    
+    /* Assurer que le menu est bien visible */
+    .header {
+        z-index: 1000 !important;
+    }
+} 
