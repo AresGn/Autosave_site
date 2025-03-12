@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - AutoSavePro</title>
+    <meta name="description" content="Foire aux questions sur AutoSavePro, l'application de sauvegarde automatique pour Windows">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../assets/images/favicon.ico" sizes="any">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.svg" alt="AutoSavePro Logo">
+                    <span class="header__logo-text">AutoSavePro</span>
+                </a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="../index.html#features">Fonctionnalités</a></li>
+                    <li class="header__nav-item"><a href="../index.html#apps">Applications supportées</a></li>
+                    <li class="header__nav-item"><a href="../index.html#download">Téléchargement</a></li>
+                    <li class="header__nav-item"><a href="../index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Foire Aux Questions</h1>
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item"><a href="../index.html" class="breadcrumbs__link">Accueil</a></li>
+                    <li class="breadcrumbs__item"><span class="breadcrumbs__link breadcrumbs__link--active">FAQ</span></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="faq__categories">
+                <button class="faq__category-btn active" data-category="general">Général</button>
+                <button class="faq__category-btn" data-category="technical">Technique</button>
+                <button class="faq__category-btn" data-category="usage">Utilisation</button>
+                <button class="faq__category-btn" data-category="troubleshooting">Dépannage</button>
+            </div>
+
+            <div class="faq__content">
+                <!-- General Questions -->
+                <div class="faq__category active" id="general">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Qu'est-ce qu'AutoSavePro ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>AutoSavePro est une application de sauvegarde automatique pour Windows qui surveille vos documents et les sauvegarde automatiquement pendant que vous travaillez, vous protégeant ainsi contre la perte de données due aux plantages, aux coupures de courant ou aux oublis de sauvegarde.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>AutoSavePro est-il gratuit ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Oui, AutoSavePro est totalement gratuit et open source ! Vous pouvez l'utiliser sans aucune restriction et pour une durée illimitée, que ce soit pour un usage personnel ou professionnel.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Quelles sont les applications prises en charge ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>AutoSavePro prend en charge de nombreuses applications, notamment :</p>
+                            <ul>
+                                <li>Microsoft Office (Word, Excel, PowerPoint, OneNote)</li>
+                                <li>Éditeurs de texte (Bloc-notes, WordPad, Visual Studio Code)</li>
+                                <li>Et bien d'autres applications courantes</li>
+                            </ul>
+                            <p>De nouvelles applications seront ajoutées dans les prochaines versions. Consultez notre page "À venir" pour plus de détails !</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Questions -->
+                <div class="faq__category" id="technical">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Quelles sont les exigences système ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>AutoSavePro nécessite :</p>
+                            <ul>
+                                <li>Windows 7 ou version ultérieure</li>
+                                <li>Minimum 2 GB de RAM</li>
+                                <li>Moins de 100 MB d'espace disque</li>
+                                <li>Connexion Internet pour les mises à jour (facultatif)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>AutoSavePro ralentit-il mon ordinateur ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Non, AutoSavePro est conçu pour être léger et utiliser un minimum de ressources système. Il fonctionne en arrière-plan et n'interfère pas avec vos activités normales. Vous ne remarquerez généralement pas qu'il est en cours d'exécution.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Où sont stockées la copie des sauvegardes ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Les copies de sauvegarde sont stockées dans le dossier Documents\AutoSavePro sur votre ordinateur. Les fichiers sont organisés par application pour faciliter la récupération :</p>
+                            <ul>
+                                <li>Pour les documents Word : Documents\AutoSavePro\Microsoft Word</li>
+                                <li>Pour les fichiers VS Code : Documents\AutoSavePro\Visual Studio Code</li>
+                                <li>Et ainsi de suite pour chaque application supportée</li>
+                            </ul>
+                            <p>Vous pouvez modifier cet emplacement dans les paramètres de l'application si nécessaire.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Usage Questions -->
+                <div class="faq__category" id="usage">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Comment configurer les intervalles de sauvegarde ?</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Vous pouvez configurer les intervalles de sauvegarde dans les paramètres de l'application :</p>
+                            <ol>
+                                <li>Ouvrez AutoSavePro</li>
+                                <li>Cliquez sur "Paramètres"</li>
+                                <li>Sélectionnez l'onglet "Sauvegarde"</li>
+                                <li>Ajustez l'intervalle de sauvegarde selon vos besoins</li>
+                            </ol>
+                            <p>Vous pouvez définir des intervalles différents pour différentes applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Troubleshooting Questions -->
+                <div class="faq__category" id="troubleshooting">
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>AutoSavePro ne détecte pas mon application</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Si AutoSavePro ne détecte pas une application :</p>
+                            <ol>
+                                <li>Vérifiez que l'application est prise en charge</li>
+                                <li>Redémarrez l'application et AutoSavePro</li>
+                                <li>Ajoutez manuellement l'application dans les paramètres</li>
+                                <li>Vérifiez les mises à jour d'AutoSavePro</li>
+                            </ol>
+                            <p>Si le problème persiste, contactez notre support technique.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__question">
+                            <h3>Les sauvegardes ne se font pas automatiquement</h3>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__answer">
+                            <p>Si les sauvegardes automatiques ne fonctionnent pas :</p>
+                            <ol>
+                                <li>Vérifiez que AutoSavePro est en cours d'exécution</li>
+                                <li>Vérifiez les paramètres de sauvegarde</li>
+                                <li>Assurez-vous que l'application est surveillée</li>
+                                <li>Vérifiez l'espace disque disponible</li>
+                                <li>Redémarrez AutoSavePro</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Vous n'avez pas trouvé de réponse à votre question ?</h2>
+            <p>Notre équipe de support est là pour vous aider.</p>
+            <a href="../index.html#contact" class="button button--primary">Contactez-nous</a>
+        </div>
+    </section>
+    
+    <!-- Séparateur -->
+    <div class="page-separator"></div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="../assets/images/logo.svg" alt="AutoSavePro Logo" class="footer__logo">
+                    <p class="footer__tagline">Ne perdez plus jamais vos documents importants</p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Liens rapides</h3>
+                    <ul class="footer__list">
+                        <li><a href="../index.html#features">Fonctionnalités</a></li>
+                        <li><a href="../index.html#apps">Applications supportées</a></li>
+                        <li><a href="../index.html#download">Téléchargement</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="a-venir.html">À venir</a></li>
+                    </ul>
+                </div>
+                <div class="footer__legal">
+                    <h3 class="footer__title">Informations légales</h3>
+                    <ul class="footer__list">
+                        <li><a href="privacy-policy.html">Politique de confidentialité</a></li>
+                        <li><a href="terms.html">Conditions d'utilisation</a></li>
+                        <li><a href="license.html">Licence</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__title">Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">Copyright © 2025 AutoSavePro.Inc - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="../scripts/main.js"></script>
+    <script>
+        // FAQ Accordion functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ items toggle
+            const faqItems = document.querySelectorAll('.faq__question');
+            faqItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    const parent = item.parentElement;
+                    parent.classList.toggle('active');
+                    
+                    // Close other items
+                    const siblings = Array.from(parent.parentElement.children).filter(el => el !== parent);
+                    siblings.forEach(sibling => {
+                        sibling.classList.remove('active');
+                    });
+                });
+            });
+            
+            // FAQ categories toggle
+            const categoryBtns = document.querySelectorAll('.faq__category-btn');
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    btn.classList.add('active');
+                    
+                    // Show corresponding category
+                    const category = btn.dataset.category;
+                    const categories = document.querySelectorAll('.faq__category');
+                    
+                    categories.forEach(cat => {
+                        cat.classList.remove('active');
+                        if (cat.id === category) {
+                            cat.classList.add('active');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,121 @@
+/* Footer styles */
+
+.footer {
+    background-color: var(--color-primary);
+    color: white;
+    padding: var(--space-2xl) 0 var(--space-lg);
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-xl);
+    margin-bottom: var(--space-xl);
+}
+
+.footer__brand {
+    grid-column: span 1;
+}
+
+.footer__logo {
+    height: 2.5rem;
+    width: auto;
+    margin-bottom: var(--space-md);
+}
+
+.footer__tagline {
+    font-size: var(--font-size-sm);
+    opacity: 0.9;
+    margin-bottom: var(--space-md);
+}
+
+.footer__title {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-md);
+    font-weight: 600;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.footer__list a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: var(--transition-base);
+}
+
+.footer__list a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.social-links {
+    display: flex;
+    gap: var(--space-md);
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: var(--transition-base);
+}
+
+.social-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+.social-link img {
+    width: 1.25rem;
+    height: 1.25rem;
+    filter: brightness(0) invert(1);
+}
+
+.footer__bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--space-lg);
+    text-align: center;
+}
+
+.footer__copyright {
+    font-size: var(--font-size-sm);
+    opacity: 0.8;
+}
+
+/* Responsive footer */
+@media (max-width: 1024px) {
+    .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer__brand {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: var(--space-xl) 0 var(--space-md);
+    }
+    
+    .footer__grid {
+        gap: var(--space-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer__brand {
+        grid-column: span 1;
+    }
+} 

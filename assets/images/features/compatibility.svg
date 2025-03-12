@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <style>
+    .primary { fill: #2B6CB0; }
+    .secondary { fill: #4299E1; }
+  </style>
+  
+  <!-- Circular background -->
+  <circle class="secondary" cx="32" cy="32" r="30" opacity="0.2" />
+  
+  <!-- Document icons -->
+  <g transform="translate(12, 12)">
+    <!-- Word document -->
+    <rect class="primary" x="0" y="0" width="16" height="20" rx="2" ry="2" />
+    <text x="8" y="14" text-anchor="middle" font-family="Arial" font-size="10" fill="white">W</text>
+    
+    <!-- Excel document -->
+    <rect class="primary" x="24" y="0" width="16" height="20" rx="2" ry="2" />
+    <text x="32" y="14" text-anchor="middle" font-family="Arial" font-size="10" fill="white">E</text>
+    
+    <!-- PowerPoint document -->
+    <rect class="primary" x="0" y="24" width="16" height="20" rx="2" ry="2" />
+    <text x="8" y="38" text-anchor="middle" font-family="Arial" font-size="10" fill="white">P</text>
+    
+    <!-- Code document -->
+    <rect class="primary" x="24" y="24" width="16" height="20" rx="2" ry="2" />
+    <text x="32" y="38" text-anchor="middle" font-family="Arial" font-size="10" fill="white">C</text>
+  </g>
+  
+  <!-- Connection lines -->
+  <path class="secondary" d="M32,32 L20,20 M32,32 L44,20 M32,32 L20,44 M32,32 L44,44" stroke-width="2" stroke="#4299E1" fill="none" />
+  
+  <!-- Central node -->
+  <circle class="primary" cx="32" cy="32" r="4" />
+</svg> 

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>AutoSavePro - Sauvegarde Automatique Intelligente</title>
+    <meta name="description" content="AutoSavePro - Solution de sauvegarde automatique pour vos documents Windows">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@400;600&family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="assets/images/favicon.ico" sizes="any">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="assets/images/logo.svg" alt="AutoSavePro Logo">
+                <span class="header__logo-text">AutoSavePro</span>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#features">Fonctionnalités</a></li>
+                    <li class="header__nav-item"><a href="#apps">Applications supportées</a></li>
+                    <li class="header__nav-item"><a href="#download">Téléchargement</a></li>
+                    <li class="header__nav-item"><a href="pages/a-venir.html">À venir</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero hero--responsive">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">AutoSavePro - Votre gardien numérique</h1>
+                <p class="hero__subtitle">Sauvegarde automatique intelligente de vos travaux sur Windows</p>
+                <div class="hero__cta">
+                    <a href="#download" class="button button--primary">Télécharger gratuitement</a>
+                    <span class="hero__version">Version 1.0.0</span>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="assets/images/hero-banner.png" alt="Démonstration AutoSavePro">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features features--responsive">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir AutoSavePro ?</h2>
+            <div class="features__grid">
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt fa-3x"></i>
+                    <h3>Protection Continue</h3>
+                    <p>Sauvegarde automatique de vos documents en temps réel pour ne jamais perdre votre travail.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt fa-3x"></i>
+                    <h3>Performance</h3>
+                    <p>Fonctionne en arrière-plan sans ralentir votre ordinateur ni perturber votre travail.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-folder-open fa-3x"></i>
+                    <h3>Sauvegarde Locale</h3>
+                    <p>Crée automatiquement une copie en temps réel dans Documents\AutoSavePro, pour récupérer vos fichiers même après suppression.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="apps" class="applications">
+        <div class="container">
+            <h2 class="section-title">Applications Supportées</h2>
+            <div class="apps-slider apps-slider--responsive">
+                <div class="apps-slider__container">
+                    <div class="apps-slider__track">
+                        <!-- Word -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/word.svg" alt="Word" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">Word</h3>
+                            <p class="app-slide__description">Documents et rapports</p>
+                        </div>
+                        
+                        <!-- Excel -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/excel.svg" alt="Excel" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">Excel</h3>
+                            <p class="app-slide__description">Feuilles de calcul</p>
+                        </div>
+                        
+                        <!-- PowerPoint -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/powerpoint.svg" alt="PowerPoint" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">PowerPoint</h3>
+                            <p class="app-slide__description">Présentations</p>
+                        </div>
+                        
+                        <!-- OneNote -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/onenote.svg" alt="OneNote" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">OneNote</h3>
+                            <p class="app-slide__description">Notes et organisation</p>
+                        </div>
+                        
+                        <!-- Bloc-notes -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/notepad.svg" alt="Bloc-notes" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">Bloc-notes Windows</h3>
+                            <p class="app-slide__description">Édition de texte simple</p>
+                        </div>
+                        
+                        <!-- VS Code -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/vscode.svg" alt="VS Code" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">Visual Studio Code</h3>
+                            <p class="app-slide__description">Développement et code</p>
+                        </div>
+                        
+                        <!-- WordPad -->
+                        <div class="app-slide">
+                            <div class="app-slide__icon">
+                                <img src="assets/icons/wordpad.svg" alt="WordPad" class="app-slide__img">
+                            </div>
+                            <h3 class="app-slide__name">WordPad</h3>
+                            <p class="app-slide__description">Mise en forme de texte</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="apps-slider__dots">
+                    <!-- Les points de navigation seront générés par JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide Section -->
+    <section class="installation">
+        <div class="container">
+            <h2 class="section-title">Guide d'installation</h2>
+            <div class="installation__video-container">
+                <video class="installation__video" controls preload="auto" playsinline>
+                    <source src="tuto/installation-guide1.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la lecture de vidéos.
+                </video>
+                <p class="installation__caption">Regardez notre guide vidéo pour une installation rapide et facile</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Section -->
+    <section class="technical">
+        <div class="container">
+            <h2 class="section-title">Spécifications Techniques</h2>
+            <div class="technical__specs">
+                <div class="spec">
+                    <div class="spec__icon">
+                        <i class="fab fa-windows fa-3x"></i>
+                    </div>
+                    <h3 class="spec__title">Système d'exploitation</h3>
+                    <p class="spec__description">Windows 7 et versions ultérieures</p>
+                </div>
+                <div class="spec">
+                    <div class="spec__icon">
+                        <i class="fas fa-hdd fa-3x"></i>
+                    </div>
+                    <h3 class="spec__title">Espace disque requis</h3>
+                    <p class="spec__description">< 100 MB</p>
+                </div>
+                <div class="spec">
+                    <div class="spec__icon">
+                        <i class="fas fa-memory fa-3x"></i>
+                    </div>
+                    <h3 class="spec__title">RAM minimale</h3>
+                    <p class="spec__description">2 GB</p>
+                </div>
+                <div class="spec">
+                    <div class="spec__icon">
+                        <i class="fas fa-download fa-3x"></i>
+                    </div>
+                    <h3 class="spec__title">Installation</h3>
+                    <p class="spec__description">Simple et rapide</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials testimonials--responsive">
+        <div class="container">
+            <h2 class="section-title">TÉMOIGNAGES</h2>
+            <p class="testimonials__intro">Ce que disent nos utilisateurs</p>
+            <div class="testimonials__slider">
+                <!-- Témoignage 1 -->
+                <div class="testimonial">
+                    <div class="testimonial__content">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial__text">
+                            <p>AutoSavePro m'a sauvé plusieurs fois lors de coupures de courant. Je ne peux plus m'en passer pour mon travail quotidien.</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-image">
+                                <img src="assets/images/testimonials/user1.svg" alt="Marie L." loading="lazy">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__author-name">Marie L.</h4>
+                                <p class="testimonial__author-title">Rédactrice freelance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 2 -->
+                <div class="testimonial">
+                    <div class="testimonial__content">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial__text">
+                            <p>Une application simple mais indispensable. La configuration est intuitive et elle fonctionne parfaitement en arrière-plan.</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-image">
+                                <img src="assets/images/testimonials/user2.svg" alt="Thomas D." loading="lazy">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__author-name">Thomas D.</h4>
+                                <p class="testimonial__author-title">Développeur logiciel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 3 -->
+                <div class="testimonial">
+                    <div class="testimonial__content">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial__text">
+                            <p>Depuis que j'utilise AutoSavePro, je n'ai plus jamais perdu une seule ligne de code. L'intégration de VS Code est parfaite.</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-image">
+                                <img src="assets/images/testimonials/user3.svg" alt="Sophie M." loading="lazy">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__author-name">Julie M.</h4>
+                                <p class="testimonial__author-title">Développeuse Full Stack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Témoignage 4 -->
+                <div class="testimonial">
+                    <div class="testimonial__content">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial__text">
+                            <p>En tant qu'étudiant en ingénierie, mes rapports de projet sont sauvegardés automatiquement. J'ai gagné en tranquillité d'esprit pour mes études.</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-image">
+                                <img src="assets/images/testimonials/user4.svg" alt="Alexandre B." loading="lazy">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__author-name">Angelino B.</h4>
+                                <p class="testimonial__author-title">Étudiant en ingénierie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Témoignage 5 -->
+                <div class="testimonial">
+                    <div class="testimonial__content">
+                        <div class="testimonial__quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial__text">
+                            <p>Je gère une petite entreprise et tous nos documents comptables sont désormais protégés. AutoSavePro fait partie intégrante de notre stratégie de sécurité.</p>
+                        </div>
+                        <div class="testimonial__author">
+                            <div class="testimonial__author-image">
+                                <img src="assets/images/testimonials/user5.svg" alt="Nathalie P." loading="lazy">
+                            </div>
+                            <div class="testimonial__author-info">
+                                <h4 class="testimonial__author-name">Sylvère P.</h4>
+                                <p class="testimonial__author-title">Chef d'entreprise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonials__dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title">Téléchargez AutoSavePro</h2>
+            <p class="download__subtitle">Commencez à protéger vos documents dès aujourd'hui</p>
+            <div class="download__cta">
+                <a href="download/AutoSavePro_Setup.exe" class="button button--primary button--large">
+                    <i class="fas fa-download"></i>
+                    Télécharger gratuitement
+                </a>
+                <p class="download__version">Version 1.0.0 | Windows 7 et versions ultérieures</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact__grid">
+                <div class="contact__info">
+                    <p class="contact__text">Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter.</p>
+                    <div class="contact__methods">
+                        <div class="contact-method">
+                            <div class="contact-method__icon">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>
+                            <div class="contact-method__details">
+                                <h3 class="contact-method__title">Email</h3>
+                                <p class="contact-method__value">autosavepro@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-method__icon">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>
+                            <div class="contact-method__details">
+                                <h3 class="contact-method__title">Téléphone</h3>
+                                <p class="contact-method__value">+229 01 99 32 30 73</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <form id="contactForm" action="https://formsubmit.co/aresgnimagnon0@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="https://votresite.com/merci.html">
+                        <input type="hidden" name="_subject" value="Nouveau message de contact - AutoSavePro">
+                        <input type="hidden" name="_captcha" value="true">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nom</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Sujet</label>
+                            <select id="subject" name="subject" class="form-select">
+                                <option value="question">Question générale</option>
+                                <option value="support">Support technique</option>
+                                <option value="feedback">Commentaires</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="button button--primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="assets/images/logo.svg" alt="AutoSavePro Logo" class="footer__logo">
+                    <p class="footer__tagline">Ne perdez plus jamais vos documents importants</p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Liens rapides</h3>
+                    <ul class="footer__list">
+                        <li><a href="#features">Fonctionnalités</a></li>
+                        <li><a href="#apps">Applications supportées</a></li>
+                        <li><a href="#download">Téléchargement</a></li>
+                        <li><a href="pages/faq.html">FAQ</a></li>
+                        <li><a href="pages/a-venir.html">À venir</a></li>
+                    </ul>
+                </div>
+                <div class="footer__legal">
+                    <h3 class="footer__title">Informations légales</h3>
+                    <ul class="footer__list">
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions d'utilisation</a></li>
+                        <li><a href="#">Licence</a></li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <h3 class="footer__title">Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">Copyright © 2025 AutoSavePro.Inc - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/main.js" defer></script>
+    <script src="scripts/mobile-optimizations.js" defer></script>
+</body>
+</html> 

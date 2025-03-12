@@ -1,0 +1,514 @@
+/* Responsive CSS - Optimisations mobiles */
+
+/* ===== Règles générales pour tous les appareils mobiles ===== */
+@media (max-width: 991px) {
+    /* Ajustements généraux */
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    /* Ajustements de la typographie */
+    h1, .h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    
+    h2, .h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    /* Ajustements des sections */
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    /* Ajustements des boutons */
+    .button {
+        padding: 12px 24px;
+    }
+    
+    /* Optimisation des performances */
+    .reduce-animations * {
+        animation-duration: 0.1s !important;
+        transition-duration: 0.1s !important;
+    }
+}
+
+/* ===== Tablettes (paysage) ===== */
+@media (max-width: 991px) and (min-width: 768px) {
+    /* Hero section */
+    .hero .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .hero__title {
+        font-size: 2.2rem;
+    }
+    
+    /* Features grid */
+    .features__grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    /* Applications slider */
+    .app-slide {
+        flex: 0 0 33.333%;
+        min-width: 33.333%;
+    }
+    
+    /* Testimonials */
+    .testimonial__content {
+        max-width: 90%;
+    }
+    
+    /* Contact section */
+    .contact__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    /* Footer */
+    .footer__grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+/* ===== Tablettes (portrait) et grands mobiles ===== */
+@media (max-width: 767px) {
+    /* Header et navigation */
+    .header {
+        padding: 15px 0;
+    }
+    
+    .header__logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .header__nav {
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    /* Hero section */
+    .hero .container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .hero__content {
+        padding: 0 10px;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+    
+    .hero__title {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        color: var(--color-text);
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .hero__subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 25px;
+        color: var(--color-text-light);
+        width: 100%;
+        display: block;
+    }
+    
+    .hero__image {
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .hero__image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .hero__cta {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    /* Features section */
+    .features__grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .feature-card {
+        padding: 25px 20px;
+    }
+    
+    /* Applications slider */
+    .app-slide {
+        flex: 0 0 50%;
+        min-width: 50%;
+    }
+    
+    /* Installation section */
+    .installation__video {
+        border-radius: 10px;
+    }
+    
+    /* Technical specs */
+    .technical__specs {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    /* Testimonials */
+    .testimonial__content {
+        padding: 20px;
+    }
+    
+    .testimonial__text {
+        font-size: 1rem;
+    }
+    
+    /* Contact section */
+    .contact__grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .contact__form {
+        padding: 25px 20px;
+    }
+    
+    /* Footer */
+    .footer__grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+    
+    .footer__brand {
+        grid-column: span 2;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* ===== Smartphones ===== */
+@media (max-width: 480px) {
+    /* Ajustements généraux */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Typographie */
+    h1, .h1 {
+        font-size: 1.8rem;
+    }
+    
+    h2, .h2 {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        margin-bottom: 25px;
+    }
+    
+    /* Hero section */
+    .hero {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    
+    .hero__title {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+        padding: 0 5px;
+        /* Correction pour assurer la visibilité du titre */
+        position: relative;
+        z-index: 2;
+        color: var(--color-text);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        display: inline-block;
+        width: auto;
+        max-width: 100%;
+        padding: 5px 10px;
+    }
+    
+    .hero__subtitle {
+        font-size: 1rem;
+        /* Correction pour assurer la visibilité du sous-titre */
+        position: relative;
+        z-index: 2;
+        color: var(--color-text-light);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        display: inline-block;
+        width: auto;
+        max-width: 100%;
+        padding: 5px 10px;
+    }
+    
+    .hero__cta {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .hero__version {
+        margin-top: 10px;
+    }
+    
+    /* Applications slider */
+    .app-slide {
+        flex: 0 0 100%;
+        min-width: 100%;
+    }
+    
+    /* Technical specs */
+    .technical__specs {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Testimonials */
+    .testimonial__author {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .testimonial__author-info {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    /* Download section */
+    .download__cta {
+        padding: 20px 15px;
+    }
+    
+    .download__version {
+        font-size: 0.8rem;
+    }
+    
+    /* Contact form */
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    /* Footer */
+    .footer__grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer__brand {
+        grid-column: span 1;
+    }
+    
+    .footer__social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* ===== Petits smartphones ===== */
+@media (max-width: 360px) {
+    /* Ajustements spécifiques pour très petits écrans */
+    .hero__title {
+        font-size: 1.6rem;
+        /* Assurer la visibilité sur les très petits écrans */
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .hero__subtitle {
+        font-size: 0.9rem;
+        /* Assurer la visibilité sur les très petits écrans */
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .testimonial__text {
+        font-size: 0.9rem;
+    }
+    
+    .app-slide__name {
+        font-size: 1rem;
+    }
+    
+    .app-slide__description {
+        font-size: 0.8rem;
+    }
+}
+
+/* ===== Corrections spécifiques pour les problèmes courants ===== */
+
+/* Fix pour les images qui débordent */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Amélioration du menu mobile */
+@media (max-width: 767px) {
+    .header--menu-open {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+    
+    .header--menu-open + * {
+        margin-top: 70px;
+    }
+    
+    body.menu-open {
+        overflow: hidden;
+    }
+    
+    .header__nav {
+        padding-top: 70px;
+    }
+    
+    .header__nav-item a {
+        padding: 12px 0;
+        display: block;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+}
+
+/* Amélioration du touch pour les sliders */
+@media (max-width: 991px) {
+    .apps-slider__track,
+    .testimonials__slider {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+/* Optimisations supplémentaires pour mobile */
+
+/* Amélioration de la vitesse de chargement des pages */
+@media (max-width: 767px) {
+    /* Réduire la taille des polices pour améliorer les performances */
+    body {
+        font-size: 15px;
+    }
+    
+    /* Améliorer la lisibilité des textes sur mobile */
+    p {
+        line-height: 1.5;
+    }
+    
+    /* Augmenter la taille des zones cliquables */
+    .button, 
+    .header__nav-item a,
+    .footer__list a,
+    .social-link {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Améliorer l'espacement des formulaires sur mobile */
+    input, 
+    select, 
+    textarea {
+        font-size: 16px; /* Empêche le zoom automatique sur iOS */
+        padding: 12px;
+    }
+    
+    /* Améliorer la visibilité des boutons */
+    .button--primary {
+        padding: 14px 28px;
+    }
+    
+    /* Améliorer l'affichage des cartes */
+    .feature-card {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease;
+    }
+    
+    /* Optimiser les animations pour mobile */
+    .hero__content,
+    .hero__image,
+    .feature-card {
+        animation: none !important;
+    }
+    
+    /* Améliorer la visibilité du menu */
+    .menu-toggle span {
+        height: 3px;
+    }
+    
+    /* Améliorer l'accessibilité des liens */
+    a:active {
+        opacity: 0.7;
+    }
+    
+    /* Correction spécifique pour la section hero */
+    .hero--responsive .container {
+        padding-top: 20px;
+    }
+    
+    .hero--responsive .hero__content {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Optimisations pour les écrans à haute densité de pixels */
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) {
+    /* Améliorer la netteté des bordures */
+    .feature-card,
+    .testimonial__content,
+    .contact__form,
+    .form-input,
+    .form-select,
+    .form-textarea {
+        border-width: 0.5px;
+    }
+}
+
+/* Optimisations pour l'orientation portrait/paysage */
+@media (max-width: 767px) and (orientation: landscape) {
+    /* Ajuster la hauteur du menu pour éviter le défilement */
+    .header__nav {
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+    
+    /* Réduire la taille de la section hero */
+    .hero {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    /* Ajuster la disposition des cartes */
+    .features__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 

@@ -1,0 +1,135 @@
+/* Animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animation utility classes */
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-left {
+    animation: slideInFromLeft 0.5s ease-in-out;
+}
+
+.animate-slide-right {
+    animation: slideInFromRight 0.5s ease-in-out;
+}
+
+.animate-slide-bottom {
+    animation: slideInFromBottom 0.5s ease-in-out;
+}
+
+.animate-pulse {
+    animation: pulse 2s infinite;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Animation delays */
+.delay-100 {
+    animation-delay: 0.1s;
+}
+
+.delay-200 {
+    animation-delay: 0.2s;
+}
+
+.delay-300 {
+    animation-delay: 0.3s;
+}
+
+.delay-400 {
+    animation-delay: 0.4s;
+}
+
+.delay-500 {
+    animation-delay: 0.5s;
+}
+
+/* Hover animations */
+.hover-scale {
+    transition: var(--transition-base);
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.hover-lift {
+    transition: var(--transition-base);
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+}
+
+.hover-shadow {
+    transition: var(--transition-base);
+}
+
+.hover-shadow:hover {
+    box-shadow: var(--shadow-md);
+} 

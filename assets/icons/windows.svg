@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <style>
+    .windows-blue { fill: #0078D7; }
+  </style>
+  
+  <!-- Windows logo -->
+  <path class="windows-blue" d="M3,7l10-1.4v9.8H3V7z M3,25l10,1.4v-9.8H3V25z M14.6,5.4L29,3.5v11.9H14.6V5.4z M14.6,26.6L29,28.5V16.6H14.6V26.6z" />
+</svg> 

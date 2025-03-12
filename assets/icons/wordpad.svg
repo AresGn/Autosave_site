@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <style>
+    .wordpad-blue { fill: #2B6CB0; }
+  </style>
+  
+  <!-- Document background -->
+  <rect class="wordpad-blue" x="4" y="2" width="24" height="28" rx="2" ry="2" />
+  
+  <!-- Paper -->
+  <rect fill="white" x="6" y="4" width="20" height="24" rx="1" ry="1" />
+  
+  <!-- Text formatting -->
+  <rect fill="#CCCCCC" x="8" y="8" width="16" height="2" rx="1" ry="1" />
+  <rect fill="#CCCCCC" x="8" y="12" width="12" height="2" rx="1" ry="1" />
+  <rect fill="#CCCCCC" x="8" y="16" width="14" height="2" rx="1" ry="1" />
+  <rect fill="#CCCCCC" x="8" y="20" width="10" height="2" rx="1" ry="1" />
+  
+  <!-- Pencil -->
+  <path class="wordpad-blue" d="M22,18l4-4l-2-2l-4,4v2h2z" />
+</svg> 

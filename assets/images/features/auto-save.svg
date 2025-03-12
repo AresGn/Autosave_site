@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <style>
+    .primary { fill: #2B6CB0; }
+    .secondary { fill: #4299E1; }
+  </style>
+  
+  <!-- Circular background -->
+  <circle class="secondary" cx="32" cy="32" r="30" opacity="0.2" />
+  
+  <!-- Floppy disk icon -->
+  <path class="primary" d="M48,16v32c0,2.2-1.8,4-4,4H20c-2.2,0-4-1.8-4-4V16c0-2.2,1.8-4,4-4h24C46.2,12,48,13.8,48,16z M44,16
+    c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v10c0,0.6-0.4,1-1,1H25c-0.6,0-1-0.4-1-1V16c0-0.6-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1v32
+    c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V16z" />
+  
+  <!-- Arrow indicating automatic saving -->
+  <path class="primary" d="M32,36c-0.3,0-0.5-0.1-0.7-0.3l-8-8c-0.4-0.4-0.4-1,0-1.4s1-0.4,1.4,0l7.3,7.3l7.3-7.3c0.4-0.4,1-0.4,1.4,0
+    s0.4,1,0,1.4l-8,8C32.5,35.9,32.3,36,32,36z" />
+</svg> 

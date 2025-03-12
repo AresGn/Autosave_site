@@ -1,0 +1,114 @@
+/* Form styles */
+
+.form-group {
+    margin-bottom: var(--space-md);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: var(--radius-md);
+    background-color: white;
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: var(--font-size-base);
+    transition: var(--transition-base);
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.1);
+}
+
+.form-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.form-select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232D3748' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+.form-checkbox,
+.form-radio {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    cursor: pointer;
+}
+
+.form-checkbox input[type="checkbox"],
+.form-radio input[type="radio"] {
+    width: 1.25rem;
+    height: 1.25rem;
+    accent-color: var(--color-primary);
+    cursor: pointer;
+}
+
+.form-checkbox-label,
+.form-radio-label {
+    cursor: pointer;
+}
+
+/* Form validation */
+.form-input.is-invalid,
+.form-textarea.is-invalid,
+.form-select.is-invalid {
+    border-color: #e53e3e;
+}
+
+.form-input.is-invalid:focus,
+.form-textarea.is-invalid:focus,
+.form-select.is-invalid:focus {
+    box-shadow: 0 0 0 3px rgba(229, 62, 62, 0.1);
+}
+
+.form-error {
+    color: #e53e3e;
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-xs);
+}
+
+.form-success {
+    color: var(--color-success);
+    font-size: var(--font-size-sm);
+    margin-top: var(--space-xs);
+}
+
+/* Form layout */
+.form-row {
+    display: flex;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.form-col {
+    flex: 1;
+}
+
+/* Form responsive */
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: var(--space-sm);
+    }
+} 

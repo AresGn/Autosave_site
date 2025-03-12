@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <style>
+    .placeholder-bg { fill: #E2E8F0; }
+    .placeholder-icon { fill: #A0AEC0; }
+  </style>
+  
+  <!-- Background -->
+  <rect class="placeholder-bg" width="80" height="80" rx="10" />
+  
+  <!-- Icon -->
+  <path class="placeholder-icon" d="M40,20c-11,0-20,9-20,20s9,20,20,20s20-9,20-20S51,20,40,20z M40,56c-8.8,0-16-7.2-16-16s7.2-16,16-16
+    s16,7.2,16,16S48.8,56,40,56z M44,36h-8v8h8V36z M44,28h-8v4h8V28z M36,48h8v4h-8V48z" />
+</svg> 
