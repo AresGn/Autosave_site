@@ -1,0 +1,356 @@
+{
+  "navigation": {
+    "features": "Fonctionnalités",
+    "apps": "Applications supportées",
+    "download": "Téléchargement",
+    "coming_soon": "À venir",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "AutoSavePro - Votre gardien numérique",
+    "subtitle": "Sauvegarde automatique intelligente de vos travaux sur Windows",
+    "download_button": "Télécharger gratuitement",
+    "version": "Version 1.0.0"
+  },
+  "features": {
+    "title": "Pourquoi choisir AutoSavePro ?",
+    "protection": {
+      "title": "Protection Continue",
+      "description": "Sauvegarde automatique de vos documents en temps réel pour ne jamais perdre votre travail."
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Fonctionne en arrière-plan sans ralentir votre ordinateur ni perturber votre travail."
+    },
+    "backup": {
+      "title": "Sauvegarde Locale",
+      "description": "Crée automatiquement une copie en temps réel dans Documents\\AutoSavePro, pour récupérer vos fichiers même après suppression."
+    }
+  },
+  "apps": {
+    "title": "Applications Supportées",
+    "word": {
+      "name": "Word",
+      "description": "Documents et rapports"
+    },
+    "excel": {
+      "name": "Excel",
+      "description": "Feuilles de calcul"
+    },
+    "powerpoint": {
+      "name": "PowerPoint",
+      "description": "Présentations"
+    },
+    "onenote": {
+      "name": "OneNote",
+      "description": "Notes et organisation"
+    },
+    "notepad": {
+      "name": "Bloc-notes Windows",
+      "description": "Édition de texte simple"
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "description": "Développement et code"
+    },
+    "wordpad": {
+      "name": "WordPad",
+      "description": "Mise en forme de texte"
+    }
+  },
+  "installation": {
+    "title": "Guide d'installation",
+    "caption": "Regardez notre guide vidéo pour une installation rapide et facile"
+  },
+  "technical": {
+    "title": "Spécifications Techniques",
+    "os": {
+      "title": "Système d'exploitation",
+      "description": "Windows 7 et versions ultérieures"
+    },
+    "disk": {
+      "title": "Espace disque requis",
+      "description": "< 100 MB"
+    },
+    "ram": {
+      "title": "RAM minimale",
+      "description": "2 GB"
+    },
+    "installation": {
+      "title": "Installation",
+      "description": "Simple et rapide"
+    }
+  },
+  "testimonials": {
+    "title": "TÉMOIGNAGES",
+    "intro": "Ce que disent nos utilisateurs",
+    "items": [
+      {
+        "text": "AutoSavePro m'a sauvé plusieurs fois lors de coupures de courant. Je ne peux plus m'en passer pour mon travail quotidien.",
+        "author": "Marie L.",
+        "job": "Rédactrice freelance"
+      },
+      {
+        "text": "Une application simple mais indispensable. La configuration est intuitive et elle fonctionne parfaitement en arrière-plan.",
+        "author": "Thomas D.",
+        "job": "Développeur logiciel"
+      },
+      {
+        "text": "Depuis que j'utilise AutoSavePro, je n'ai plus jamais perdu une seule ligne de code. L'intégration de VS Code est parfaite.",
+        "author": "Julie M.",
+        "job": "Développeuse Full Stack"
+      },
+      {
+        "text": "En tant qu'étudiant en ingénierie, mes rapports de projet sont sauvegardés automatiquement. J'ai gagné en tranquillité d'esprit pour mes études.",
+        "author": "Angelino B.",
+        "job": "Étudiant en ingénierie"
+      },
+      {
+        "text": "Je gère une petite entreprise et tous nos documents comptables sont désormais protégés. AutoSavePro fait partie intégrante de notre stratégie de sécurité.",
+        "author": "Sylvère P.",
+        "job": "Chef d'entreprise"
+      }
+    ]
+  },
+  "download": {
+    "title": "Téléchargez AutoSavePro",
+    "subtitle": "Commencez à protéger vos documents dès aujourd'hui",
+    "button": "Télécharger gratuitement",
+    "version": "Version 1.0.0 | Windows 7 et versions ultérieures"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "text": "Vous avez des questions ou des suggestions ? N'hésitez pas à nous contacter.",
+    "email": {
+      "title": "Email",
+      "value": "autosavepro@gmail.com"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "value": "+229 01 99 32 30 73"
+    },
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "subject_options": {
+        "question": "Question générale",
+        "support": "Support technique",
+        "feedback": "Commentaires",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "submit": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "tagline": "Ne perdez plus jamais vos documents importants",
+    "quick_links": "Liens rapides",
+    "legal": "Informations légales",
+    "follow_us": "Suivez-nous",
+    "links": {
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "license": "Licence",
+      "faq": "FAQ"
+    },
+    "copyright": "Copyright © 2025 AutoSavePro.Inc - Tous droits réservés"
+  },
+  "coming_soon_page": {
+    "title": "Fonctionnalités à venir",
+    "breadcrumbs": {
+      "home": "Accueil",
+      "coming_soon": "À venir"
+    },
+    "roadmap": {
+      "title": "Notre feuille de route",
+      "intro": "Découvrez les nouvelles fonctionnalités et améliorations prévues pour les prochaines versions d'AutoSavePro.",
+      "versions": {
+        "v1_1": {
+          "title": "Version 1.1.0",
+          "date": "Q3 2025",
+          "features": [
+            {
+              "title": "Sauvegarde dans le cloud",
+              "description": "Synchronisation automatique avec Google Drive, Dropbox et OneDrive pour sécuriser vos sauvegardes."
+            },
+            {
+              "title": "Interface utilisateur améliorée",
+              "description": "Nouveau design plus intuitif avec mode sombre et personnalisation des couleurs."
+            },
+            {
+              "title": "Historique de versions avancé",
+              "description": "Visualisez et restaurez facilement les versions précédentes de vos documents avec comparaison côte à côte."
+            }
+          ]
+        },
+        "v1_2": {
+          "title": "Version 1.2.0",
+          "date": "Q4 2025",
+          "features": [
+            {
+              "title": "Sauvegarde intelligente par IA",
+              "description": "Notre algorithme d'IA apprendra de vos habitudes pour optimiser les moments de sauvegarde."
+            },
+            {
+              "title": "Collaboration en temps réel",
+              "description": "Travaillez sur les mêmes documents avec vos collègues tout en bénéficiant de sauvegardes automatiques."
+            },
+            {
+              "title": "Application mobile",
+              "description": "Accédez à vos sauvegardes depuis votre smartphone Android ou iOS."
+            }
+          ]
+        },
+        "v2_0": {
+          "title": "Version 2.0.0",
+          "date": "Q1 2026",
+          "features": [
+            {
+              "title": "Support multi-plateformes",
+              "description": "Extension de la compatibilité à macOS et Linux."
+            },
+            {
+              "title": "Intégration avec les outils de productivité",
+              "description": "Connexion avec Notion, Trello, Asana et d'autres outils de gestion de projet."
+            },
+            {
+              "title": "Analyse de productivité",
+              "description": "Statistiques détaillées sur votre travail et suggestions d'amélioration."
+            }
+          ]
+        }
+      }
+    },
+    "future_apps": {
+      "title": "Applications bientôt supportées",
+      "intro": "Nous travaillons constamment à élargir la liste des applications compatibles avec AutoSavePro.",
+      "apps": [
+        {
+          "name": "Adobe Photoshop",
+          "release": "Prévu pour Q3 2025"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "release": "Prévu pour Q3 2025"
+        },
+        {
+          "name": "Adobe Premiere Pro",
+          "release": "Prévu pour Q4 2025"
+        },
+        {
+          "name": "AutoCAD",
+          "release": "Prévu pour Q4 2025"
+        },
+        {
+          "name": "Blender",
+          "release": "Prévu pour Q1 2026"
+        },
+        {
+          "name": "Archicad",
+          "release": "Prévu pour Q1 2026"
+        },
+        {
+          "name": "SolidWorks",
+          "release": "Prévu pour Q1 2026"
+        },
+        {
+          "name": "Arduino",
+          "release": "Prévu pour Q1 2026"
+        },
+        {
+          "name": "Unity",
+          "release": "Prévu pour Q1 2026"
+        }
+      ]
+    },
+    "feature_request": {
+      "title": "Demandez une fonctionnalité",
+      "intro": "Vous souhaitez qu'AutoSavePro prenne en charge une application spécifique ou intègre une nouvelle fonctionnalité ? Faites-nous part de vos idées !",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "request_type": "Type de demande",
+        "request_types": {
+          "app": "Support d'une application",
+          "feature": "Nouvelle fonctionnalité",
+          "improvement": "Amélioration d'une fonctionnalité existante",
+          "other": "Autre"
+        },
+        "app_name": "Nom de l'application (si applicable)",
+        "description": "Description détaillée",
+        "importance": "Importance pour vous",
+        "submit": "Soumettre ma demande",
+        "success": {
+          "title": "Merci pour votre suggestion !",
+          "message1": "Nous avons bien reçu votre demande et l'étudierons avec attention.",
+          "message2": "Notre équipe pourrait vous contacter pour plus de détails si nécessaire."
+        }
+      }
+    }
+  },
+  "faq_page": {
+    "title": "Foire Aux Questions",
+    "breadcrumbs": {
+      "home": "Accueil",
+      "faq": "FAQ"
+    },
+    "categories": {
+      "general": "Général",
+      "technical": "Technique",
+      "usage": "Utilisation",
+      "troubleshooting": "Dépannage"
+    },
+    "questions": {
+      "general": [
+        {
+          "question": "Qu'est-ce qu'AutoSavePro ?",
+          "answer": "AutoSavePro est une application de sauvegarde automatique pour Windows qui surveille vos documents et les sauvegarde automatiquement pendant que vous travaillez, vous protégeant ainsi contre la perte de données due aux plantages, aux coupures de courant ou aux oublis de sauvegarde."
+        },
+        {
+          "question": "AutoSavePro est-il gratuit ?",
+          "answer": "Oui, AutoSavePro est totalement gratuit et open source ! Vous pouvez l'utiliser sans aucune restriction et pour une durée illimitée, que ce soit pour un usage personnel ou professionnel."
+        },
+        {
+          "question": "Quelles sont les applications prises en charge ?",
+          "answer": "AutoSavePro prend en charge de nombreuses applications, notamment :\n- Microsoft Office (Word, Excel, PowerPoint, OneNote)\n- Éditeurs de texte (Bloc-notes, WordPad, Visual Studio Code)\n- Et bien d'autres applications courantes\n\nDe nouvelles applications seront ajoutées dans les prochaines versions. Consultez notre page \"À venir\" pour plus de détails !"
+        }
+      ],
+      "technical": [
+        {
+          "question": "Quelles sont les exigences système ?",
+          "answer": "AutoSavePro nécessite :\n- Windows 7 ou version ultérieure\n- Minimum 2 GB de RAM\n- Moins de 100 MB d'espace disque\n- Connexion Internet pour les mises à jour (facultatif)"
+        },
+        {
+          "question": "AutoSavePro ralentit-il mon ordinateur ?",
+          "answer": "Non, AutoSavePro est conçu pour être léger et utiliser un minimum de ressources système. Il fonctionne en arrière-plan et n'interfère pas avec vos activités normales. Vous ne remarquerez généralement pas qu'il est en cours d'exécution."
+        },
+        {
+          "question": "Où sont stockées la copie des sauvegardes ?",
+          "answer": "Les copies de sauvegarde sont stockées dans le dossier Documents\\AutoSavePro sur votre ordinateur. Les fichiers sont organisés par application pour faciliter la récupération :\n- Pour les documents Word : Documents\\AutoSavePro\\Microsoft Word\n- Pour les fichiers VS Code : Documents\\AutoSavePro\\Visual Studio Code\n- Et ainsi de suite pour chaque application supportée\n\nVous pouvez modifier cet emplacement dans les paramètres de l'application si nécessaire."
+        }
+      ],
+      "usage": [
+        {
+          "question": "Comment configurer les intervalles de sauvegarde ?",
+          "answer": "Vous pouvez configurer les intervalles de sauvegarde dans les paramètres de l'application :\n1. Ouvrez AutoSavePro\n2. Cliquez sur \"Paramètres\"\n3. Sélectionnez l'onglet \"Sauvegarde\"\n4. Ajustez l'intervalle de sauvegarde selon vos besoins\n\nVous pouvez définir des intervalles différents pour différentes applications."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "question": "AutoSavePro ne détecte pas mon application",
+          "answer": "Si AutoSavePro ne détecte pas une application :\n1. Vérifiez que l'application est prise en charge\n2. Redémarrez l'application et AutoSavePro\n3. Ajoutez manuellement l'application dans les paramètres\n4. Vérifiez les mises à jour d'AutoSavePro\n\nSi le problème persiste, contactez notre support technique."
+        },
+        {
+          "question": "Les sauvegardes ne se font pas automatiquement",
+          "answer": "Si les sauvegardes automatiques ne fonctionnent pas :\n1. Vérifiez que AutoSavePro est en cours d'exécution\n2. Vérifiez les paramètres de sauvegarde\n3. Assurez-vous que l'application est surveillée\n4. Vérifiez l'espace disque disponible\n5. Redémarrez AutoSavePro"
+        }
+      ]
+    },
+    "contact_cta": {
+      "title": "Vous n'avez pas trouvé de réponse à votre question ?",
+      "subtitle": "Notre équipe de support est là pour vous aider.",
+      "button": "Contactez-nous"
+    }
+  }
+} 

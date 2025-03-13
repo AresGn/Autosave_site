@@ -6,6 +6,7 @@ import { initSlider } from './modules/slider.js';
 import { initForms } from './modules/form-validation.js';
 import { initScrollEffects } from './modules/scroll-effects.js';
 import { initAppsSlider } from './modules/apps-slider.js';
+import { initLanguageSwitcher } from './modules/language-switcher.js';
 
 // Initialize all modules when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
@@ -23,6 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize applications slider
     initAppsSlider();
+    
+    // Initialize language switcher
+    initLanguageSwitcher();
     
     // Add scroll to top button
     const scrollTopButton = document.createElement('button');

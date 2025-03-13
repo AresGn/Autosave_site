@@ -1,0 +1,356 @@
+{
+  "navigation": {
+    "features": "Features",
+    "apps": "Supported Apps",
+    "download": "Download",
+    "coming_soon": "Coming Soon",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "AutoSavePro - Your Digital Guardian",
+    "subtitle": "Intelligent automatic backup of your work on Windows",
+    "download_button": "Download for Free",
+    "version": "Version 1.0.0"
+  },
+  "features": {
+    "title": "Why Choose AutoSavePro?",
+    "protection": {
+      "title": "Continuous Protection",
+      "description": "Automatic real-time backup of your documents so you never lose your work."
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Works in the background without slowing down your computer or disrupting your work."
+    },
+    "backup": {
+      "title": "Local Backup",
+      "description": "Automatically creates a real-time copy in Documents\\AutoSavePro, to recover your files even after deletion."
+    }
+  },
+  "apps": {
+    "title": "Supported Applications",
+    "word": {
+      "name": "Word",
+      "description": "Documents and reports"
+    },
+    "excel": {
+      "name": "Excel",
+      "description": "Spreadsheets"
+    },
+    "powerpoint": {
+      "name": "PowerPoint",
+      "description": "Presentations"
+    },
+    "onenote": {
+      "name": "OneNote",
+      "description": "Notes and organization"
+    },
+    "notepad": {
+      "name": "Windows Notepad",
+      "description": "Simple text editing"
+    },
+    "vscode": {
+      "name": "Visual Studio Code",
+      "description": "Development and code"
+    },
+    "wordpad": {
+      "name": "WordPad",
+      "description": "Text formatting"
+    }
+  },
+  "installation": {
+    "title": "Installation Guide",
+    "caption": "Watch our video guide for quick and easy installation"
+  },
+  "technical": {
+    "title": "Technical Specifications",
+    "os": {
+      "title": "Operating System",
+      "description": "Windows 7 and later versions"
+    },
+    "disk": {
+      "title": "Required Disk Space",
+      "description": "< 100 MB"
+    },
+    "ram": {
+      "title": "Minimum RAM",
+      "description": "2 GB"
+    },
+    "installation": {
+      "title": "Installation",
+      "description": "Simple and quick"
+    }
+  },
+  "testimonials": {
+    "title": "TESTIMONIALS",
+    "intro": "What our users are saying",
+    "items": [
+      {
+        "text": "AutoSavePro has saved me multiple times during power outages. I can't work without it now for my daily tasks.",
+        "author": "Mary L.",
+        "job": "Freelance Writer"
+      },
+      {
+        "text": "A simple but essential application. The setup is intuitive and it works perfectly in the background.",
+        "author": "Thomas D.",
+        "job": "Software Developer"
+      },
+      {
+        "text": "Since I started using AutoSavePro, I haven't lost a single line of code. The VS Code integration is perfect.",
+        "author": "Julie M.",
+        "job": "Full Stack Developer"
+      },
+      {
+        "text": "As an engineering student, my project reports are automatically saved. I've gained peace of mind for my studies.",
+        "author": "Angelino B.",
+        "job": "Engineering Student"
+      },
+      {
+        "text": "I manage a small business and all our accounting documents are now protected. AutoSavePro is an integral part of our security strategy.",
+        "author": "Sylvere P.",
+        "job": "Business Owner"
+      }
+    ]
+  },
+  "download": {
+    "title": "Download AutoSavePro",
+    "subtitle": "Start protecting your documents today",
+    "button": "Download for Free",
+    "version": "Version 1.0.0 | Windows 7 and later versions"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "text": "Have questions or suggestions? Don't hesitate to contact us.",
+    "email": {
+      "title": "Email",
+      "value": "autosavepro@gmail.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "value": "+229 01 99 32 30 73"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subject_options": {
+        "question": "General question",
+        "support": "Technical support",
+        "feedback": "Feedback",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "tagline": "Never lose your important documents again",
+    "quick_links": "Quick Links",
+    "legal": "Legal Information",
+    "follow_us": "Follow Us",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "license": "License",
+      "faq": "FAQ"
+    },
+    "copyright": "Copyright © 2025 AutoSavePro.Inc - All rights reserved"
+  },
+  "coming_soon_page": {
+    "title": "Coming Soon Features",
+    "breadcrumbs": {
+      "home": "Home",
+      "coming_soon": "Coming Soon"
+    },
+    "roadmap": {
+      "title": "Our Roadmap",
+      "intro": "Discover the new features and improvements planned for upcoming versions of AutoSavePro.",
+      "versions": {
+        "v1_1": {
+          "title": "Version 1.1.0",
+          "date": "Q3 2025",
+          "features": [
+            {
+              "title": "Cloud Backup",
+              "description": "Automatic synchronization with Google Drive, Dropbox, and OneDrive to secure your backups."
+            },
+            {
+              "title": "Improved User Interface",
+              "description": "New more intuitive design with dark mode and color customization."
+            },
+            {
+              "title": "Advanced Version History",
+              "description": "Easily view and restore previous versions of your documents with side-by-side comparison."
+            }
+          ]
+        },
+        "v1_2": {
+          "title": "Version 1.2.0",
+          "date": "Q4 2025",
+          "features": [
+            {
+              "title": "AI-Powered Smart Backup",
+              "description": "Our AI algorithm will learn from your habits to optimize backup timing."
+            },
+            {
+              "title": "Real-time Collaboration",
+              "description": "Work on the same documents with your colleagues while enjoying automatic backups."
+            },
+            {
+              "title": "Mobile App",
+              "description": "Access your backups from your Android or iOS smartphone."
+            }
+          ]
+        },
+        "v2_0": {
+          "title": "Version 2.0.0",
+          "date": "Q1 2026",
+          "features": [
+            {
+              "title": "Multi-platform Support",
+              "description": "Extending compatibility to macOS and Linux."
+            },
+            {
+              "title": "Productivity Tools Integration",
+              "description": "Connection with Notion, Trello, Asana, and other project management tools."
+            },
+            {
+              "title": "Productivity Analysis",
+              "description": "Detailed statistics on your work and improvement suggestions."
+            }
+          ]
+        }
+      }
+    },
+    "future_apps": {
+      "title": "Soon Supported Applications",
+      "intro": "We are constantly working to expand the list of applications compatible with AutoSavePro.",
+      "apps": [
+        {
+          "name": "Adobe Photoshop",
+          "release": "Planned for Q3 2025"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "release": "Planned for Q3 2025"
+        },
+        {
+          "name": "Adobe Premiere Pro",
+          "release": "Planned for Q4 2025"
+        },
+        {
+          "name": "AutoCAD",
+          "release": "Planned for Q4 2025"
+        },
+        {
+          "name": "Blender",
+          "release": "Planned for Q1 2026"
+        },
+        {
+          "name": "Archicad",
+          "release": "Planned for Q1 2026"
+        },
+        {
+          "name": "SolidWorks",
+          "release": "Planned for Q1 2026"
+        },
+        {
+          "name": "Arduino",
+          "release": "Planned for Q1 2026"
+        },
+        {
+          "name": "Unity",
+          "release": "Planned for Q1 2026"
+        }
+      ]
+    },
+    "feature_request": {
+      "title": "Request a Feature",
+      "intro": "Would you like AutoSavePro to support a specific application or integrate a new feature? Share your ideas with us!",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "request_type": "Request Type",
+        "request_types": {
+          "app": "Application Support",
+          "feature": "New Feature",
+          "improvement": "Existing Feature Improvement",
+          "other": "Other"
+        },
+        "app_name": "Application name (if applicable)",
+        "description": "Detailed description",
+        "importance": "Importance to you",
+        "submit": "Submit my request",
+        "success": {
+          "title": "Thanks for your suggestion!",
+          "message1": "We have received your request and will review it carefully.",
+          "message2": "Our team may contact you for more details if needed."
+        }
+      }
+    }
+  },
+  "faq_page": {
+    "title": "Frequently Asked Questions",
+    "breadcrumbs": {
+      "home": "Home",
+      "faq": "FAQ"
+    },
+    "categories": {
+      "general": "General",
+      "technical": "Technical",
+      "usage": "Usage",
+      "troubleshooting": "Troubleshooting"
+    },
+    "questions": {
+      "general": [
+        {
+          "question": "What is AutoSavePro?",
+          "answer": "AutoSavePro is an automatic backup application for Windows that monitors your documents and saves them automatically while you work, protecting you against data loss due to crashes, power outages, or forgotten saves."
+        },
+        {
+          "question": "Is AutoSavePro free?",
+          "answer": "Yes, AutoSavePro is completely free and open source! You can use it without any restrictions and for an unlimited time, whether for personal or professional use."
+        },
+        {
+          "question": "Which applications are supported?",
+          "answer": "AutoSavePro supports many applications, including:\n- Microsoft Office (Word, Excel, PowerPoint, OneNote)\n- Text editors (Notepad, WordPad, Visual Studio Code)\n- And many other common applications\n\nNew applications will be added in future versions. Check our \"Coming Soon\" page for more details!"
+        }
+      ],
+      "technical": [
+        {
+          "question": "What are the system requirements?",
+          "answer": "AutoSavePro requires:\n- Windows 7 or later\n- Minimum 2 GB of RAM\n- Less than 100 MB of disk space\n- Internet connection for updates (optional)"
+        },
+        {
+          "question": "Does AutoSavePro slow down my computer?",
+          "answer": "No, AutoSavePro is designed to be lightweight and use minimal system resources. It runs in the background and doesn't interfere with your normal activities. You generally won't notice it's running."
+        },
+        {
+          "question": "Where are backup copies stored?",
+          "answer": "Backup copies are stored in the Documents\\AutoSavePro folder on your computer. Files are organized by application for easy recovery:\n- For Word documents: Documents\\AutoSavePro\\Microsoft Word\n- For VS Code files: Documents\\AutoSavePro\\Visual Studio Code\n- And so on for each supported application\n\nYou can change this location in the application settings if needed."
+        }
+      ],
+      "usage": [
+        {
+          "question": "How do I configure backup intervals?",
+          "answer": "You can configure backup intervals in the application settings:\n1. Open AutoSavePro\n2. Click on \"Settings\"\n3. Select the \"Backup\" tab\n4. Adjust the backup interval according to your needs\n\nYou can set different intervals for different applications."
+        }
+      ],
+      "troubleshooting": [
+        {
+          "question": "AutoSavePro doesn't detect my application",
+          "answer": "If AutoSavePro doesn't detect an application:\n1. Check that the application is supported\n2. Restart the application and AutoSavePro\n3. Manually add the application in settings\n4. Check for AutoSavePro updates\n\nIf the problem persists, contact our technical support."
+        },
+        {
+          "question": "Backups aren't happening automatically",
+          "answer": "If automatic backups aren't working:\n1. Check that AutoSavePro is running\n2. Check backup settings\n3. Make sure the application is being monitored\n4. Check available disk space\n5. Restart AutoSavePro"
+        }
+      ]
+    },
+    "contact_cta": {
+      "title": "Didn't find an answer to your question?",
+      "subtitle": "Our support team is here to help.",
+      "button": "Contact us"
+    }
+  }
+} 

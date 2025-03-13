@@ -24,4 +24,84 @@
 @import 'pages/_a-venir.css';
 
 /* Responsive styles - Ces styles prennent priorité */
-@import 'responsive.css'; 
+@import 'responsive.css';
+
+/* Ajout des styles pour le sélecteur de langue */
+.language-selector {
+    position: relative;
+    margin-left: 15px;
+}
+
+.language-toggle {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: var(--color-text, #333);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.language-toggle .current-language {
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 5px 0;
+    min-width: 120px;
+    display: none;
+    z-index: 100;
+}
+
+.language-dropdown.show {
+    display: block;
+}
+
+.language-dropdown a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: var(--color-text, #333);
+    transition: all 0.2s ease;
+}
+
+.language-dropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.language-dropdown a.active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Styles responsifs pour le sélecteur de langue */
+@media (max-width: 768px) {
+    .language-selector {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    
+    .language-toggle {
+        padding: 8px 12px;
+    }
+    
+    .language-dropdown {
+        width: 100%;
+        position: static;
+        margin-top: 5px;
+    }
+} 
