@@ -2,6 +2,10 @@
 
 Landing page pour AutoSavePro, une application de sauvegarde automatique intelligente pour Windows.
 
+- 🌐 **Site en ligne** : [autosavepro.vercel.app](https://autosavepro.vercel.app)
+- 💻 **Code source de l'application** (C# / WinForms + installateur NSIS) : [AresGn/Sauvegarde_Auto](https://github.com/AresGn/Sauvegarde_Auto)
+- ⬇️ **Télécharger l'installateur** : [AutosavePro_Setup.exe (v1.0.0)](https://github.com/AresGn/Autosave_site/releases/tag/autosave)
+
 ## Description
 
 Cette landing page présente AutoSavePro, une application qui permet de sauvegarder automatiquement vos documents pendant que vous travaillez. Elle met en avant les fonctionnalités clés, les applications supportées, et guide les utilisateurs vers le téléchargement de l'application.

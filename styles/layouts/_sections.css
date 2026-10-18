@@ -470,6 +470,17 @@
     opacity: 0.8;
 }
 
+.download__source a {
+    font-size: var(--font-size-sm);
+    color: inherit;
+    opacity: 0.85;
+    text-decoration: underline;
+}
+
+.download__source a:hover {
+    opacity: 1;
+}
+
 /* Contact section */
 .contact {
     background-color: white;
